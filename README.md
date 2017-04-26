@@ -1,6 +1,6 @@
 # npmtest-express-crud
 
-#### test coverage for  [express-crud (v4.0.1)](https://github.com/jsdevel/node-express-crud)  [![npm package](https://img.shields.io/npm/v/npmtest-express-crud.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-crud) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-crud.svg)](https://travis-ci.org/npmtest/node-npmtest-express-crud)
+#### basic test coverage for  [express-crud (v4.0.1)](https://github.com/jsdevel/node-express-crud)  [![npm package](https://img.shields.io/npm/v/npmtest-express-crud.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-crud) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-crud.svg)](https://travis-ci.org/npmtest/node-npmtest-express-crud)
 
 #### Easy CRUD for express apps!
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-crud/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-express-crud/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express-crud/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express-crud/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-crud/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-crud/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-express-crud/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-express-crud/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-crud/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-crud/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-express-crud/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express-crud/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
         "report": "istanbul report cobertura",
         "test": "npm run-script jshint && npm run-script cover && npm run-script report"
     },
-    "version": "4.0.1"
+    "version": "4.0.1",
+    "bin": {}
 }
 ```
 
